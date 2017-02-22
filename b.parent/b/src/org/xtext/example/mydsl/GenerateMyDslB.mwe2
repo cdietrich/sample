@@ -43,13 +43,5 @@ Workflow {
 			}
 		}
 	}
-	bean = org.eclipse.emf.mwe.utils.StandaloneSetup {
-		projectMapping = {
-			path = rootPath
-			projectName = "b"
-		}
-		registerGenModelFile = "platform:/resource/a/model/generated/MyDslA.genmodel"
-		scanClassPath = true
-		platformUri = "${runtimeProject}/.."
-	}
+
 }
