@@ -1,0 +1,7 @@
+bin
+src-gen
+xtend-gen
+model/generated
+.gradle
+build
+.gitignore
